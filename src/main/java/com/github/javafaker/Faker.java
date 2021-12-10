@@ -710,6 +710,5 @@ public class Faker {
     public String expression(String expression) {
         return this.fakeValuesService.expression(expression, this);
     }
-
 }
 

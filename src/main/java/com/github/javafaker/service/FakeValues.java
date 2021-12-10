@@ -77,11 +77,6 @@ public class FakeValues implements FakeValuesInterface {
             localeBased = (Map) valuesMap.get(filename);
         }
 
-        try {
-            stream.close();
-        } catch (IOException ex){
-            return null;
-        }
         return (Map) localeBased.get("faker");
     }
 
